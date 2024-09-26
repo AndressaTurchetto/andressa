@@ -44,6 +44,7 @@ html {
 body {
     background-color: var(--color-black);
     width: 100%;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,7 +159,7 @@ a {
 
 .header {
     user-select: none;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100vw;
     padding: 2rem 1.2rem;
@@ -1264,8 +1265,3 @@ a {
 }
 
 
-@media (max-width: 1042px) {
-    .right-sobre .imagem-sobre {
-        display: none;
-    }
-}

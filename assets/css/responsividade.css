@@ -196,4 +196,8 @@
         text-align: right;
         margin-top: 0;
     }
+
+    .right-sobre .imagem-sobre {
+        display: none;
+    }
 }
