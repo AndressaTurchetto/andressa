@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('.nav-menu a');
     const body = document.body;
 
+
     // Abre/fecha o menu ao mudar o estado do checkbox
     menuToggle.addEventListener('change', function () {
         if (menuToggle.checked) {
@@ -24,4 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
             body.classList.remove('no-scroll');
         });
     });
+});
+
+const typed = new Typed('.multiplos-textos', {
+    strings: ['Desenvolvedora Front-end', 'Programadora'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 100,
+    loop: true
 });

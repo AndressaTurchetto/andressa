@@ -19,7 +19,6 @@
     --color-destaque2: #728e6f;
 }
 
-/* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -62,7 +61,36 @@ a {
     text-decoration: none;
 }
 
-/*Botões fixos*/
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #151515;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: var(--color-destaque1);
+}
+
+#loading-text {
+    position: absolute;
+    color: var(--color-black);
+    font-size: 3rem;
+    font-weight: bolder;
+    z-index: 10;
+}
+
 .fixed-button {
     position: fixed;
     display: none;
@@ -118,6 +146,7 @@ a {
 }
 
 .container {
+    display: inline;
     width: 100%;
     max-width: 1400px;
     height: 100%;
@@ -127,7 +156,6 @@ a {
     justify-content: center;
 }
 
-/*************** HEADER *****/
 .header {
     user-select: none;
     position: fixed;
@@ -144,7 +172,30 @@ a {
     -webkit-backdrop-filter: blur(10px); 
 }
 
-/* Logo */
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h1, .home-content h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home-content h1 {
+    font-size: 58px;
+    line-height: 1.1;
+}
+
+.home-content h3 {
+    font-size: 23px;
+    margin: 20px 0;
+}
+
+.home-content h1 span, .home-content span {
+    color: var(--color-destaque1);
+}
+
 .logo {
     width: 100%;
 }
@@ -152,8 +203,14 @@ a {
 .logo img {
     width: 150px;
 }
+.logo h1 {
+    color: var(--color-white);
+}
 
-/* Menu */
+.logo span {
+    color: var(--color-destaque1);
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -197,7 +254,6 @@ a {
     stroke-dashoffset: -32.42;
 }
 
-/* Menu Navegação */
 .menu-aberto {
     background-color: var(--color-black);
     position: fixed;
@@ -252,7 +308,6 @@ a {
     transition: all 0.3s ease;
 }
 
-/*************** INICIO *****/
 .inicio {
     width: 100%;
     height: 100vh;
@@ -284,16 +339,6 @@ a {
     gap: 1rem;
 }
 
-.titulo-inicio {
-    font-size: clamp(1rem, 2.5vw + .8rem, 3rem);
-    font-family: var(--font-grande);
-    font-weight: normal;
-}
-
-.destaque-inicio {
-    font-weight: lighter;
-}
-
 .paragrafo-inicio p {
     font-size: clamp(1.2rem, 1.5vw + 1rem, 2rem);
     max-width: 900px;
@@ -301,7 +346,6 @@ a {
     font-family: var(--font-pequena);
 }
 
-/* Botão Inicio */
 .cta {
     position: relative;
     margin: auto;
@@ -389,7 +433,6 @@ a {
     opacity: 1;
 }
 
-/*************** SOBRE *****/
 .sobre {
     background-color: var(--color-black);
     width: 100%;
@@ -532,6 +575,11 @@ a {
     position: absolute;
 }
 
+.imagem-sobre img{
+    border-radius: 50%;
+    max-height: 500px;
+}
+
 .complemento-sobre {
     width: auto;
     z-index: 0;
@@ -561,7 +609,6 @@ a {
     z-index: 99;
 }
 
-/*************** SKILLS *****/
 .skills {
     width: 100%;
     padding: 7rem 1rem;
@@ -647,7 +694,6 @@ a {
     }
 }
 
-/*************** SERVIÇOS *****/
 .servicos {
     background-color: var(--color-white);
     width: 100vw;
@@ -760,7 +806,6 @@ a {
     margin-bottom: -7px;
 }
 
-/*************** ALGUMA FRASE AQUI  *****/
 .free-your-mind {
     background-color: var(--color-white);
     width: 100vw;
@@ -814,7 +859,6 @@ a {
     margin: 0 4rem;
 }
 
-/*************** PORTFOLIO *****/
 .portfolio {
     width: 100%;
     height: 100%;
@@ -981,7 +1025,6 @@ a {
     letter-spacing: 1.2px;
 }
 
-/*************** CONTATO *****/
 .contato {
     width: 100vw;
     height: auto;
@@ -1124,7 +1167,6 @@ a {
     border-radius: 36px;
 }
 
-/*************** FOOTER *****/
 .footer {
     background-color: var(--color-black);
     width: 100%;
@@ -1219,4 +1261,11 @@ a {
 
 .credits-column p {
     margin: 0.2rem 0;
+}
+
+
+@media (max-width: 1042px) {
+    .right-sobre .imagem-sobre {
+        display: none;
+    }
 }
