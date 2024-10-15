@@ -32,7 +32,7 @@ Não é necessário instalar nada além de um editor de texto e um navegador par
 
 ## 👨‍🏫 Sobre Mim
 
-Eu sou **Ricardo Moura**, desenvolvedor web e como estudante de Engenharia de Software na Estácio, estou expandindo meus conhecimentos técnicos, o que me permite inovar e buscar a excelência no desenvolvimento de projetos web. A minha meta é continuar crescendo como desenvolvedora, contribuindo com soluções tecnológicas que impactam positivamente a experiência dos usuários.
+Eu sou a **Andressa Turchetto**, desenvolvedor web e como estudante de Engenharia de Software na Estácio, estou expandindo meus conhecimentos técnicos, o que me permite inovar e buscar a excelência no desenvolvimento de projetos web. A minha meta é continuar crescendo como desenvolvedora, contribuindo com soluções tecnológicas que impactam positivamente a experiência dos usuários.
 
 - **LinkedIn:** [Andressa Turchetto](https://www.linkedin.com/in/andressadev/)
 
