@@ -1,54 +1,55 @@
 
 # Portfólio
 
-Bem-vindo ao **Portfólio da Andressa**! Aqui você encontrará uma coleção de meus projetos, habilidades, experiências e meus contatos, links e alguns dos meus projetos.
+Welcome to **my portfolio**! Here you will find a collection of my projects, skills, experiences and my contacts, links and some of my projects.
 
-## 🔧 Tecnologias Utilizadas
+## 🔧 Technologies Used
 
-- **HTML5 & CSS3:** Para estrutura e estilo.
-- **JavaScript:** Para animações e interações dinâmicas.
-- **AOS (Animate on Scroll):** Para as animações ao rolar a página.
-- **Bootstrap Icons:** Ícones prontos para uso, para uma interface mais rica.
+- **HTML5 & CSS3:** For structure and style.
+- **JavaScript:** For animations and dynamic interactions.
+- **AOS (Animate on Scroll):** For animations when scrolling the page.
+- **Bootstrap Icons:** Ready-to-use icons for a richer interface.
 
-## 👨‍🏫 Sobre Mim
+## 👨‍🏫 About me
 
-Eu sou a **Andressa Turchetto**, desenvolvedor web e como estudante de Engenharia de Software na Estácio, estou expandindo meus conhecimentos técnicos, o que me permite inovar e buscar a excelência no desenvolvimento de projetos web. A minha meta é continuar crescendo como desenvolvedora, contribuindo com soluções tecnológicas que impactam positivamente a experiência dos usuários.
+I am an extremely creative person, driven by a passion for solving problems and the combination of entrepreneurship and technology. My true calling is innovation and digital transformation.
 
-## Projetos
+At 30 years old, I live in Brazil, and I consider myself a highly communicative professional, with solid training in soft skills. I have more than 1 year of experience in web development, focusing on Angular, using mainly TypeScript and Node.js. 
 
-Aqui estão alguns dos meus projetos.
+I am also an active participant in developer communities, always looking for new challenges and contributing to the technological ecosystem.
 
-## Habilidades
+## Projects
+
+Here are some of my projects.
+
+## Skills
 
 - Angular
 - JavaScript
 - TypeScript
-- HTML
-- CSS
+-HTML
+-CSS
 - TAILWIND
 - BOOTSTRAP
-- CHATGPT e IA
-- TESTES COM JEST
+- CHATGPT and AI
+- TESTS WITH JEST
 - WORDPRESS
-- FIGMA e FUNDAMENTOS DE DESIGN
-- SCRUM e KANBAN
-- SEO e ACESSIBILIDADE  
-- GIT e GITHUB
-- MODELAGEM DE DADOS
+- FIGMA and DESIGN FUNDAMENTALS
+- SCRUM and KANBAN
+- SEO and ACCESSIBILITY  
+- GIT and GITHUB
+- DATA MODELING
 - MARIA DB | MySQL
 - SWAGGER
-- FUNDAMENTOS AWS
-- SO: WINDOWS e LINUX
-- MICROSSERVIÇOS | ARQUITETURA DE SOFTWARE
+- AWS FUNDAMENTALS
+- OS: WINDOWS and LINUX
+- MICROSERVICES | SOFTWARE ARCHITECTURE
 
-## 📋 Como Utilizar
+## 📋 How to Use
 
-1. **Clone o Repositório**
+1. **Clone the Repository**
    git clone https://github.com/AndressaTurchetto/andressa.git
 
-## 🎁 Como Contribuir
-
-Se você tem sugestões de melhorias ou encontrou algum bug, fique à vontade para contribuir com o projeto. Basta abrir uma issue ou fazer um pull request.
 
 ## Contato
 
