@@ -196,6 +196,10 @@ a {
     color: var(--color-destaque1);
 }
 
+.button-about {
+    color: var(--color-white);
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -416,8 +420,8 @@ a {
 }
 
 .qr-code {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
-    height: auto; /* Mantém a proporção */
+    max-width: 100%;
+    height: auto;
 }
 
 .sobre {
@@ -555,18 +559,6 @@ a {
     justify-content: center;
 }
 
-.imagem-sobre {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    position: absolute;
-}
-
-.imagem-sobre img{
-    border-radius: 50%;
-    max-height: 500px;
-}
-
 .complemento-sobre {
     width: auto;
     z-index: 0;
@@ -581,10 +573,6 @@ a {
     animation: rotate 20s linear infinite;
 }
 
-.imagem-sobre img {
-    width: 90%;
-    z-index: 99;
-}
 
 .skills {
     width: 100%;
@@ -1007,6 +995,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 4rem;
 }
 
 .headline-contato {
@@ -1056,14 +1045,17 @@ a {
     gap: 2rem;
 }
 
+
 .formulario-contato {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
     padding: 2rem 0rem 2rem 0rem;
+    box-sizing: border-box;
 }
 
 .formulario-contato h2 {
@@ -1086,26 +1078,27 @@ a {
     gap: 1rem;
 }
 
-.form input {
+.form input,
+.form textarea {
     font-family: var(--font-pequena);
     width: 100%;
-    height: 30px;
     border-radius: 30px;
     outline: none;
     border: 2px solid rgba(128, 128, 128, 0.5);
-    padding: 1.5rem 1rem;
+    padding: 1rem 1.5rem;
     font-size: 1.2rem;
+    box-sizing: border-box;
 }
 
-.form textarea {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    outline: none;
-    border: 2px solid rgba(128, 128, 128, 0.5);
+.form button {
     font-family: var(--font-pequena);
+    padding: 1rem 2rem;
+    background-color: var(--color-destaque2);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
     font-size: 1.2rem;
-    padding: 1.5rem 1rem;
 }
 
 .btn {
@@ -1120,15 +1113,21 @@ a {
 }
 
 .logo-contato {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+    padding-left: 1rem;
+    box-sizing: border-box;
 }
 
+
 .logo-contato img {
-    width: 80%;
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
     border-radius: 36px;
 }
 
