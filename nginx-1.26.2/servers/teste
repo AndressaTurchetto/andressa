@@ -1,0 +1,11 @@
+server {
+    listen 3030;
+
+    root file:///C:/Users/ConsórcioASSES-COMPU/projects/link-bio-bento-box/site/;
+    # index index.html;
+
+    # location / {
+    #     try_files $uri $uri/ =404;
+    # }
+    gzip on;
+}

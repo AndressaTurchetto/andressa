@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const e=document.getElementById("menuToggle"),t=document.querySelector(".menu-aberto");e.addEventListener("change",(function(){e.checked?t.classList.add("active"):t.classList.remove("active")}))}));
